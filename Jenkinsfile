@@ -1,3 +1,11 @@
-library 'mainPipeline'
-
-mainPipeline(world: "Ahmad")
+@Library('test') _
+pipeline{
+    agent any
+    stages{
+        stage('Test') {
+            steps {
+                testStage()
+            }
+        }
+    }
+}

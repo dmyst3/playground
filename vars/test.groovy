@@ -1,3 +1,5 @@
-def call(def message) {
-    println message
+def testStage(){
+    println "hello"
 }
+
+return this;

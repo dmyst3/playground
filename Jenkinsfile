@@ -1,1 +1,1 @@
-CI(world: "Ahmad")
+mainPipeline(world: "Ahmad")

@@ -3,7 +3,8 @@ pipeline{
     stages{
         stage('My first stage'){
             steps{
-            println 'hello'
+                def pipeline = load 'test.groovy'
+                pipeline.t()
             }
         }
     }

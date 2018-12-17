@@ -1,5 +1,4 @@
-def testStage(){
-    println "hello"
+def call() {
+	unstash 'myApp'
+	echo 'testing...'
 }
-
-return this;

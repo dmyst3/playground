@@ -3,8 +3,10 @@ pipeline{
     stages{
         stage('Test') {
             steps {
-                def code=load 'test.groovy'
-                code.call()
+                script{
+                    def code=load 'test.groovy'
+                    code.call()
+                }
             }
         }
     }

@@ -1,4 +1,4 @@
-@Library('test') _
+@Library('playground@master') _
 pipeline{
     agent any
     stages{
